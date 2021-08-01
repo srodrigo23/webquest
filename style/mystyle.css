@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
 div#nav-bar{
     /* background-image:  */
     padding:10px;
@@ -11,9 +13,9 @@ div#header{
 }
 
 div#title{
-    background-image: url('../assets/background.jpg');
+    background-image: url('../assets/coding.gif');
     background-size: 300px;
-    padding: 70px;
+    padding: 50px;
     font-size: 35px;
     text-align: center;
     color: aliceblue;
@@ -25,9 +27,27 @@ div#footer{
     position: fixed;
     bottom:0;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
+    font-size:20px;
     text-align: center;
     color:white;
-    background: rgb(14, 148, 23);
-    background: linear-gradient(0deg, rgba(14, 148, 23, 1) 0%, rgba(28, 27, 23, 1) 100%);
+    background-image: url('../assets/coding.gif');
+    background-size: 300px;
+}
+
+a#text-button{
+    color:white;
+    font-family: 'ZCOOL XiaoWei',
+    serif;
+    
+}
+
+i{
+    font-size:50px;
+    color: orange;
+    padding:5px;
+}
+
+div#autor{
+    font-size:small;
 }
