@@ -1,3 +1,33 @@
-body {
+div#nav-bar{
+    /* background-image:  */
+    padding:10px;
+     background: rgb(14, 148, 23);
+     background: linear-gradient(0deg, rgba(14, 148, 23, 1) 0%, rgba(28, 27, 23, 1) 100%);
+}
+
+div#header{
+    align-content: center;
+    flex: content;
+}
+
+div#title{
     background-image: url('../assets/background.jpg');
+    background-size: 300px;
+    padding: 70px;
+    font-size: 35px;
+    text-align: center;
+    color: aliceblue;
+    font-family: monaco,Verdana,sans-serif;
+    text-shadow: 1px 2px white;
+}
+
+div#footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color:white;
+    background: rgb(14, 148, 23);
+    background: linear-gradient(0deg, rgba(14, 148, 23, 1) 0%, rgba(28, 27, 23, 1) 100%);
 }
